@@ -42,7 +42,7 @@ code blocks, tables, links, and lists preserved.
 
 - Images are linked by URL, not downloaded.
 - Selectors will occasionally break when a site redesigns its UI — see
-  [`README.md`](./README.md) for how to fix that, and PRs are welcome.
+  [`MAINTAINERS.md`](./MAINTAINERS.md) for how to fix that, and PRs are welcome.
 - Artifact/canvas panels and "thinking" panels that render outside the main message flow
   aren't specially captured.
 
