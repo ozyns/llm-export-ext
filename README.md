@@ -41,8 +41,7 @@ code blocks, tables, links, and lists preserved.
 ## Limitations
 
 - Images are linked by URL, not downloaded.
-- Selectors will occasionally break when a site redesigns its UI — see
-  [`MAINTAINERS.md`](./MAINTAINERS.md) for how to fix that, and PRs are welcome.
+- Selectors will occasionally break when a site redesigns its UI.
 - Artifact/canvas panels and "thinking" panels that render outside the main message flow
   aren't specially captured.
 
