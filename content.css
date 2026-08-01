@@ -1,0 +1,35 @@
+#llm-export-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999999;
+  max-width: min(320px, calc(100vw - 48px));
+  padding: 10px 16px;
+  background: #10a37f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transition: background 0.15s ease, transform 0.1s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#llm-export-btn:hover {
+  background: #0d8f6f;
+}
+
+#llm-export-btn:active {
+  transform: scale(0.97);
+}
+
+#llm-export-btn:disabled {
+  background: #6b7280;
+  cursor: default;
+}

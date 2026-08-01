@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "LLM Chat Exporter",
+  "version": "0.2.0",
+  "description": "Adds an Export button to ChatGPT, Claude, Gemini, and DeepSeek that saves the current conversation as a Markdown file — including full history on very long chats.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*",
+        "https://claude.ai/*",
+        "https://gemini.google.com/*",
+        "https://chat.deepseek.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
